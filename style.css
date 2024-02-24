@@ -121,6 +121,7 @@ nav ul li a:hover:after{
 .jounrney-1{
 padding: 5% 10%;
 color: white;
+height: 100vh;
 display: flex;
 justify-content: space-around;
 flex-wrap: wrap;
@@ -134,13 +135,29 @@ flex-wrap: wrap;
 .right-journey-1{
     flex-basis: 60%;
     padding: 1px;
+    /* justify-content:; */
+    /* align-items:center; */
+    align-content: center;
 }
 
 .right-journey-1 ul{
-  padding: 10px;
-}
+    padding: 10px;
+  }
 
-.right-journey-1 ul li{
+  .right-journey-1 ul p span{
+    color: red;
+  }
+
+
+  
+  .right-journey-1 ul li span{
+    color: red;
+  }
+
+  .right-journey-1 ul li{
+    padding: 12px;
+  }
+  .right-journey-1 ul p{
     padding: 10px;
   }
   .jounrney-2{
