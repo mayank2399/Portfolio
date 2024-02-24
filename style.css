@@ -117,3 +117,54 @@ nav ul li a:hover:after{
 .right-divide ul li{
     padding: 10px;
 }
+
+.jounrney-1{
+padding: 5% 10%;
+color: white;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.left-journey-1{
+    flex-basis: 35%;
+    padding: 1px;
+}
+
+.right-journey-1{
+    flex-basis: 60%;
+    padding: 1px;
+}
+
+.right-journey-1 ul{
+  padding: 10px;
+}
+
+.right-journey-1 ul li{
+    padding: 10px;
+  }
+  .jounrney-2{
+    padding: 5% 10%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }
+    
+    .right-journey-2{
+        flex-basis: 35%;
+        padding: 1px;
+    }
+    
+    .left-journey-2{
+        flex-basis: 60%;
+        padding: 1px;
+    }
+    
+    .left-journey-2 ul{
+      padding: 10px;
+    }
+    
+    .left-journey-2 ul li{
+        padding: 10px;
+      }
