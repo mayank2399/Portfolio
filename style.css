@@ -169,13 +169,25 @@ flex-wrap: wrap;
     }
     
     .right-journey-2{
-        flex-basis: 35%;
+        flex-basis: 45%;
         padding: 1px;
+    }
+
+    .right-journey-2 img{
+        flex-basis: 35%;
+        padding: 30px;
+        height: 400px;
+        width:80vb;
+        
     }
     
     .left-journey-2{
-        flex-basis: 60%;
-        padding: 1px;
+        flex-basis: 30%;
+        padding: 100px 1px;
+    }
+   
+    .left-journey-2 p{
+        padding: 10px;
     }
     
     .left-journey-2 ul{
