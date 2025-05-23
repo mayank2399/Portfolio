@@ -260,8 +260,8 @@
   color: white;     
   display: inline-block;
   margin-left: 8vh;  
-    height: 24vh;
-    width: 15vw;    
+    height: fit-content;
+    width: fit-content;    
     justify-content: center;
     align-items: center;
 }
@@ -271,7 +271,7 @@
 } */
 .process_boxes{
     flex-wrap: wrap;
-    margin: 15vh;
+    /* margin: 15vh; */
     height: fit-content;
     /* justify-content: space-between; Spread out */
 }
@@ -296,7 +296,7 @@
 
 
 #pb2{
-  margin-left: 18vw;
+  margin-left: 7vw;
 }
 
 #pt1{
@@ -322,8 +322,8 @@
   /* display: inline-block; */
   margin-left: 8vh;  
   margin-bottom: 2vh;
-    height: 24vh;
-    width: 75vw;    
+    height: fit-content;
+    width: fit-content;    
     /* justify-content: center;
     align-items: center; */
 }
@@ -337,7 +337,7 @@
 @media (min-width: 768px) {
   .process_box {
     width: 40%;
-    margin: 2vh;
+    margin: 4vh;
   }
 
   .experice_box {
@@ -358,7 +358,7 @@
 /* Desktop */
 @media (min-width: 1024px) {
   .process_box {
-    width: 20vw;
+    width: 50vw;
     height: 24vh;
   }
 
